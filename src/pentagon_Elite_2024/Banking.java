@@ -79,9 +79,10 @@ public class Banking {
             	
                 System.out.print("Enter your customerName: ");
                 String customerName = scanner.nextLine();
+                scanner.nextLine();
                 System.out.print("Enter your Bankname: ");
                 String Bankname = scanner.nextLine();
-                scanner.nextLine();
+               // scanner.nextLine();
                 account.CreateAccount(customerName, Bankname);
                 break;
                 
