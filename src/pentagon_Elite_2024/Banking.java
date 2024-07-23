@@ -16,9 +16,9 @@ class BankAccount {
     
     public void CreateAccount(String customerName, String Bankname)
     {
-    	if (customerName== "null")
+    	if (customerName== "")
     	{
-    		if(Bankname== "null")
+    		if(Bankname== "")
     		{
     			System.out.println("Account not created");
     		}}else
